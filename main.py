@@ -34,7 +34,6 @@ frame = Frame(root, width = 200, bd = 0, highlightbackground = "black", highligh
 
 frame.pack(side = TOP)
 
-# create a input field inside the 'Frame'
 entry = Entry(frame, font = ('arial', 18, 'bold'), textvariable = input_text, borderwidth = 1, width = 50,
               bg = "CadetBlue1",
               bd = 0, justify = RIGHT)
